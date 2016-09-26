@@ -19,24 +19,21 @@
 
   <body>
     <center>
-    <h1>Pomodoro Clock</h1>
-    <br />
-    <br />
-    <div class="wrap">
-      <div>
+      <div class="wrap">
+        <h1>Pomodoro Clock</h1>
         <img id="pomodoro" src="resources/pomodoro.png">
-        <div id="output" class="text_over_image"></div>
+        <div id="output"></div>
+        <div class="controls">
+          <button id="start" class="btn btn-custom">Start</button>
+          <button id="reset" class="btn btn-custom">Reset</button>
+          <button id="decSession" class="btn btn-custom">S-</button>
+          <span id="sessionTime"></span>
+          <button id="incSession" class="btn btn-custom">S+</button>
+          <button id="decBreak-" class="btn btn-custom">B-</button>
+          <span id="breakTime"></span>
+          <button id="incBreak" class="btn btn-custom">B+</button>
+        </div>
       </div>
-    <br />
-    <br />
-    <button id="start" class="btn btn-custom">Start</button>
-    <button id="reset" class="btn btn-custom">Reset</button>
-    <button id="decSession" class="btn btn-custom">S-</button>
-    <span id="sessionTime"></span>
-    <button id="incSession" class="btn btn-custom">S+</button>
-    <button id="decBreak-" class="btn btn-custom">B-</button>
-    <span id="breakTime"></span>
-    <button id="incBreak" class="btn btn-custom">B+</button>
     </center>
   </body>
 </html>

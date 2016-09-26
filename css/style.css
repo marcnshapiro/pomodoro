@@ -24,7 +24,25 @@ body {
   border: solid 1px #203E5F;
 }
 
+.wrap {
+    width: 400px;
+    height:auto;
+    margin: auto;
+    position:relative;
+}
+
+#pomodoro {
+  position:absolute;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 170px;
+}
+
 #output {
+  position:absolute;
+  top: 170px;
+  left: 125px;
   width: 150px;
   height: 25px;
   background-color: #dfdfdf;
@@ -37,20 +55,12 @@ body {
   color: #ffffff;
 }
 
-.wrap {
-    width: 1060px;
-    height:auto;
-    margin: auto;
-    position:relative;
-}
-.text_over_image {
+.controls {
     position: absolute;
-    margin: auto;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:50px;
-    height:100px;
+    top: 300px;
+    left: 0px;
+    width: 400px;
+    height: 50px;
 }
 
 #start {
