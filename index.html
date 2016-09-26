@@ -18,14 +18,25 @@
   </head>
 
   <body>
-    <div id="output"></div>
+    <center>
+    <h1>Pomodoro Clock</h1>
+    <br />
+    <br />
+    <div class="wrap">
+      <div>
+        <img id="pomodoro" src="resources/pomodoro.png">
+        <div id="output" class="text_over_image"></div>
+      </div>
+    <br />
+    <br />
     <button id="start" class="btn btn-custom">Start</button>
     <button id="reset" class="btn btn-custom">Reset</button>
-    <button id="session-" class="btn btn-custom">S-</button>
+    <button id="decSession" class="btn btn-custom">S-</button>
     <span id="sessionTime"></span>
-    <button id="session+" class="btn btn-custom">S+</button>
-    <button id="break-" class="btn btn-custom">B-</button>
+    <button id="incSession" class="btn btn-custom">S+</button>
+    <button id="decBreak-" class="btn btn-custom">B-</button>
     <span id="breakTime"></span>
-    <button id="break+" class="btn btn-custom">B+</button>
+    <button id="incBreak" class="btn btn-custom">B+</button>
+    </center>
   </body>
 </html>

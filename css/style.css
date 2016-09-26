@@ -25,13 +25,32 @@ body {
 }
 
 #output {
-  width: 335px;
+  width: 150px;
   height: 25px;
   background-color: #dfdfdf;
   color: #000000;
   text-align: center;
   line-height: 25px;
-  font-size: 15px;
+  font-size: 18px;
+  font-style: bold;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.wrap {
+    width: 1060px;
+    height:auto;
+    margin: auto;
+    position:relative;
+}
+.text_over_image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:50px;
+    height:100px;
 }
 
 #start {
@@ -42,7 +61,7 @@ body {
   width: 75px;
 }
 
-#session- {
+#decSession- {
   width: 25px;
 }
 
@@ -50,11 +69,11 @@ body {
   width: 25px;
 }
 
-#session+ {
+#incSession {
   width: 25px;
 }
 
-#break- {
+#decBreak {
   width: 25px;
 }
 
@@ -62,6 +81,6 @@ body {
   width: 25px;
 }
 
-#break+ {
+#incBreak {
   width: 25px;
 }
